@@ -1,0 +1,5 @@
+﻿  Test.cpp
+Test.obj : error LNK2019: unresolved external symbol "void __cdecl show_map(class std::map<int,int,struct std::less<int>,class std::allocator<struct std::pair<int const ,int> > > &)" (?show_map@@YAXAAV?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Z) referenced in function _main
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl show_map(class std::map<int,int,struct std::less<int>,class std::allocator<struct std::pair<int const ,int> > > const &)" (?show_map@@YAXABV?$map@HHU?$less@H@std@@V?$allocator@U?$pair@$$CBHH@std@@@2@@std@@@Z)
+C:\Users\pavel\source\repos\Test\Debug\Test.exe : fatal error LNK1120: 1 unresolved externals
